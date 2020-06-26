@@ -1,0 +1,584 @@
+/* 
+Theme name: NukuNuku_LiveChat_LP
+Theme URL: https://bonhomme.work//Live_chat_LP/index.html
+Description: サンプルテーマ
+Version: 2.0
+Author: BonHomme
+Author URL: https://bonhomme.work//Live_chat_LP/index.html
+*/
+html {
+  overflow-x: hidden;
+  min-width: 100vw;
+}
+body {
+  overflow-x: hidden;
+  padding-top: 4rem;
+  min-width: 100vw !important;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #3ac0ec;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+.top_img {
+  min-width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  margin: 0;
+}
+
+#top_img1 {
+  object-position: 90%;
+}
+
+#top_img2 {
+  object-position: 80%;
+}
+.apply_btn {
+  float: right;
+}
+
+.display-4, .top_subtitle {
+  color: #d43c8c !important;
+}
+
+main {
+  color: #d43c8c;
+}
+.section_title {
+  margin-top: 50px;
+}
+/* header nav */
+.apply_btn_commute {
+  background-color: #d43c8c;
+}
+
+.apply_btn_home {
+  background-color: #3ac0ec;
+}
+
+header nav {
+  background-color: white;
+  height: 4rem;
+}
+.navbar-brand {
+  width: 10%;
+}
+
+.navbar-toggler {
+  border: 1px solid lightgray;
+  padding: 0px 10px;
+  margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+  border: 1px solid lightgray;
+  display: block;
+  margin: 10px auto;
+  width: 30px;
+  height: 0;
+  border-radius: 20px;
+}
+
+
+.navbar {
+  width: 100vw;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.apply_logo {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 25%;
+}
+
+.bg-main {
+  background-color: #d43c8c;
+}
+
+#globalmenu {
+  transition: all 0.6s ease;
+}
+
+.navbar-toggler:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+
+
+
+/* pc表示の"pc"のclassがついた画像が表示される */
+.pc {
+  display: block !important;
+}
+
+.margin {
+  margin: -5px 0 0 -30px;
+}
+
+.sp {
+  display: none !important;
+}
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+
+@media only screen and (max-width: 768px) {
+  .pc {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+  }
+  .margin {
+    margin: 0;
+  }
+  .padding-0 {
+    padding: 0;
+  }
+}
+
+
+/* LINE_bar */
+.LINE_bar_box {
+  background-color: #1dcd00;
+  box-sizing: content-box;
+  margin: auto 0;
+}
+.LINE_bar {
+  background-color: #1dcd00;
+  color: white;
+  font-weight: bold;
+  position:relative;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.LINE_bar:hover {
+  text-decoration: none;
+  opacity: .6;
+}
+
+.LINE_bar_ancor {
+  display: flex;
+  align-items: center;
+}
+
+
+.LINE_icon {
+  display: inline;
+  color: white;
+}
+.LINE_icon:hover {
+  opacity: 0.6;
+}
+
+/*イントロダクション  */
+.yellow_underline {
+  text-decoration: underline;
+  text-decoration-color:rgb(255, 230, 0);
+} 
+
+#intro_img {
+  object-fit: cover;
+}
+
+.anxiety {
+  border: 2px solid #d43c8c;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.attraction {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+/* section 1 */
+.card_title_number {
+  display: inline-block;
+  font-size: 2rem;
+  border: 2px solid white;
+  width: 3rem;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.section1 .card-body {
+  border-radius: 5px;
+  padding: 0;
+}
+.card-title h4 {
+  display: inline;
+  font-size: 2rem;
+}
+
+.section1 .card-title, .section4 .card-title {
+  background-color: #d43c8c;
+  padding: 30px;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.section1 .card-text, .section4 .card-text {
+  background-color: #ce88ad;
+  padding: 30px;
+  color: white;
+}
+
+/* 報酬について */
+.remuneration .card {
+  background: -webkit-repeating-linear-gradient(-45deg, #f7e3ed, #f7e3ed 3px,#fff 3px, #fff 7px);
+  background: repeating-linear-gradient(-45deg, #f7e3ed, #f7e3ed 3px,rgb(253, 247, 253) 3px, #fff 7px);
+}
+
+
+
+
+.one_on_one_img_title {
+  background-color: #d43c8c;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.one_on_one_img_card {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.one_on_one_img_card {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.remuneration_incentive {
+  background: none !important;
+  padding: 50px;
+  padding-top: 0;
+}
+
+.img_center {
+  text-align: center !important;
+}
+
+/* section2 */
+@media (min-width: 768px) {
+  .img_row_eq {
+    height: 9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .img_row_eq {
+    height: 14rem;
+  }
+}
+
+.section2 img {
+  height: 100%;
+}
+
+/* 顔バレ */
+
+.section3_bg {
+  background-image: url(./img/hide_face.jpg);
+  background-size: cover;
+  background-position-x: 20%;
+  height: 100vh;
+  position: relative;
+}
+
+.hide_bar {
+  position: absolute;
+  top: 60%;
+}
+
+.hide_bar, .attraction {
+  opacity: 0;
+  transition: all 0.8s ease-in;
+  transform: translateX(-50%);
+}
+
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* 採用の流れ（通勤） */
+
+.section4 .card-body {
+  background-color: #ce88ad;
+  padding: 0;
+}
+
+.section4 .card {
+  border-radius: 10px;
+}
+
+/* 採用の流れ（在宅） */
+.section5 {
+  color: #3ac0ec;
+}
+
+
+.section5 .card-title, .section5 .card-text{
+  background-color: #3ac0ec;
+  color: white;
+  padding: 30px;
+  margin: 0;
+}
+.section5 .card-body {
+  padding: 0;
+  background-color: #a1e2f8 !important;
+}
+
+.section5 .card-text {
+  background-color: #a1e2f8 !important;
+  
+}
+
+/* チャットルーム */
+@media (max-width:500px) {
+  .chat_room .card-title {
+    font-size: 0.4rem;
+  }
+  .chat_room .section_sub_title, .chat_room_extra {
+    text-align-last: left;
+  }
+}
+
+/* よくある質問 */
+
+
+.faq_question {
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.faq_question:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.faq_index_title {
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.faq_index_title:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+.FAQ .card-title {
+  background-color: #d43c8c;
+  color: white;
+  line-height: 1.2;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  margin: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.FAQ .card-text {
+  background-color: #ce88ad;
+  color: white;
+  padding:  10px 20px;
+  font-size: 1rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.faq_index {
+  background-color: #ffd9ed;
+  border-radius: 10px;
+}
+
+.FAQ .container {
+  border: 2px solid #d43c8c;
+  border-radius: 10px;
+  background-color: #fff5fa;
+}
+
+/* footer */
+
+.footer_sp {
+  background-color: #3ac0ec;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 30px;
+}
+
+.footer-contents {
+  border-top: 1px solid lightgray;
+  padding: 0;
+  margin: 0;
+  background-color: #3ac0ec;
+}
+
+.footer-contents > a {
+  color: white;
+  text-align: left;
+  display: block;
+  padding-left: 30px;
+}
+
+.footer-contents > a:hover {
+  text-decoration: none;
+  opacity: .6;
+  background-color: #d43c8c;
+  color: #a1e2f8;
+}
+
+@media (max-width: 767px) {
+  .sns-icon {
+    background-color: #3ac0ec;
+    margin: 0 !important;
+    border-top: 1px solid lightgray;
+    align-items: center;
+  }
+}
+
+  .footer_sp li {
+    position: relative;
+  }
+
+  .footer_sp li::after {
+    content: '\f054';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    font-weight: bold;
+    line-height: 1;
+    color: lightgray;
+    font-size: 2rem;
+    display: inline-block;
+    width: 2rem;
+  
+  }
+
+  .footer_pc {
+    line-height: 3rem;
+    background-color: #3ac0ec;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    color: #d43c8c;
+  }
+
+
+/* apply form */
+
+.apply_form {
+  border: 1px solid lightgray;
+  background-color: #3ac0ec;
+  color: white;
+}
+.apply_form_img {
+  width: 100vw;
+}
+
+.apply_form .btn {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.apply_form .fa-line {
+  color: #1dcd00;
+}
+
+.fa-mobile-alt {
+  color:skyblue;
+}
+
+.fa-envelope {
+  color: #d43c8c;
+}
+
+.apply_btn_tag {
+  display: block;
+  width: 100%;
+}
+
+.apply_btns {
+  position: relative;
+}
+
+.apply_form i {
+  position: absolute;
+  left: 20%;
+}
+
+
+
+.border_bottom {
+  border-bottom: 1px solid black;
+}
+
+/* back-to-top/btn */
+#btn-back-to-top {
+  border-radius: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgb(211, 239, 250);
+  z-index: 100;
+  color: #d43c8c;
+}
+
+#LINE-icon-follow {
+  color: #00B900;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 99;
+  transition: all 0.5s ease;
+  transform-origin: left bottom;  
+}
+
+#LINE-icon-follow::after {
+  content: '＼ LINEはこちら！／';
+  font-weight: normal;
+  font-size: 0.6rem;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  
+}
+
+#LINE-icon-follow:hover {
+  transform: scale(1.5);
+}
+
+
